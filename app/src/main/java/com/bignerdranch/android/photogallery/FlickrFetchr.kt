@@ -20,7 +20,7 @@ class FlickrFetchr {
     /**
      * Создаём экземпляр Retrofit
      * с базовым URL и
-     * GsonConverterFactory, который используется для преобразования JSON-ответа в объекты Java.
+     * addConverterFactory, который используется для преобразования JSON-ответа в объекты Java.
      */
     init {
         val retrofit: Retrofit = Retrofit.Builder()
